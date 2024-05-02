@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+ }
+ 
+ 
+ .title {
+    color: pink;
+    font-size: 30px;
+    font-weight: bolder;
+    text-shadow: 0 0 30px rgb(254, 218, 255);
+ }
+ 
+ .boring {
+    color: white;
+    font-size: 6px;
+ }
+ 
+ 
