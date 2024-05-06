@@ -5,6 +5,7 @@ body {
  
  .title {
     color: pink;
+    font-family: Georgia, Optima, serif;
     font-size: 30px;
     font-weight: bolder;
     text-shadow: 0 0 30px rgb(254, 218, 255);
@@ -16,5 +17,38 @@ body {
  }
  
  .bigspace {
-   font-size: 80px;
+   font-size: 60px;
  }
+
+ .img:hover {
+   filter: invert(1);
+ }
+
+ input {
+   height: 200px;
+   width: 300px;
+ }
+
+ button:hover {
+   filter: invert(1);
+ }
+
+ .group{
+   position:relative;
+ }
+
+ .group>label{
+   padding:0 0.2em;
+   position:absolute;
+   top:-0.5em;
+   left:1em;
+   background-color:white;
+ }
+ 
+ .group>input{
+   padding:0.8em;
+   border-radius: 0.5em;
+   border: 2px solid lightblue;
+   outline:none;
+ }
+ 
