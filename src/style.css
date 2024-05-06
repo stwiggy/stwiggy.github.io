@@ -24,11 +24,6 @@ body {
    filter: invert(1);
  }
 
- input {
-   height: 200px;
-   width: 300px;
- }
-
  button:hover {
    filter: invert(1);
  }
@@ -42,7 +37,9 @@ body {
    position:absolute;
    top:-0.5em;
    left:1em;
-   background-color:white;
+   color: cadetblue;
+   background-color:black;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  }
  
  .group>input{
@@ -50,5 +47,6 @@ body {
    border-radius: 0.5em;
    border: 2px solid lightblue;
    outline:none;
+   background-color: black;
  }
  
