@@ -1,2 +1,2 @@
 # spammy page !
-[link](stwiggy.github.io/src/index.html)
+[link](https://stwiggy.github.io/src/index.html)
