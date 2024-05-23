@@ -81,3 +81,47 @@
         color: nth($colors, random(length($colors)));
     }
    }
+
+
+   .modal {
+    display: none; 
+    position: fixed;
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(250, 193, 229);
+    }
+
+    .modal:target {
+        display: block;
+    }
+
+    .modal-content {
+        background-color: rgb(250, 193, 229);
+        margin: 15% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+        position: relative;
+        color:rgba(73, 0, 33, 0.837);
+    }
+
+    .close {
+        color: #5d0020;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        font-size: 28px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: #5d0020;
+        text-decoration: none;
+        cursor: pointer;
+    }
