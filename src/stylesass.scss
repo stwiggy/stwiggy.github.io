@@ -33,7 +33,6 @@
   }
   
   .vertical-line {
-    background-color: black;
     position: absolute;
     left: 50%;
     bottom: 0;
@@ -125,4 +124,13 @@
     font-weight: bold;
     font-size: 16px;
     background-color: black;
+  }
+
+  .top-thing {
+    position: fixed;
+    background-color: rgb(151, 0, 68);
+    color: rgb(250, 193, 229);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: large;
   }
