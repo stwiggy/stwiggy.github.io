@@ -106,7 +106,8 @@
   .melodyName {
     position: absolute;
     padding: 20px;
-    bottom: 30px;
+    bottom: 200px;
+    left: 80px;
     background-color: beige !important;
     color: rgb(151, 0, 68) !important;
     font-weight: bolder;
@@ -132,5 +133,9 @@
     color: rgb(250, 193, 229);
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
-    font-size: large;
+    font-size: 160px;
+    padding: 0px;
+    width: 100px;
+    top: 10px;
+    left: 10px;
   }

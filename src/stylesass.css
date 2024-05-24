@@ -33,7 +33,6 @@ button:hover {
 }
 
 .vertical-line {
-  background-color: black;
   position: absolute;
   left: 50%;
   bottom: 0;
@@ -107,7 +106,8 @@ button:hover {
 .melodyName {
   position: absolute;
   padding: 20px;
-  bottom: 30px;
+  bottom: 200px;
+  left: 80px;
   background-color: beige !important;
   color: rgb(151, 0, 68) !important;
   font-weight: bolder;
@@ -125,4 +125,17 @@ button:hover {
   font-weight: bold;
   font-size: 16px;
   background-color: black;
+}
+
+.top-thing {
+  position: fixed;
+  background-color: rgb(151, 0, 68);
+  color: rgb(250, 193, 229);
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 160px;
+  padding: 0px;
+  width: 100px;
+  top: 10px;
+  left: 10px;
 }/*# sourceMappingURL=stylesass.css.map */
