@@ -125,3 +125,13 @@
         text-decoration: none;
         cursor: pointer;
     }
+
+    .melodyName {
+      position: absolute;
+      padding: 20px;
+      bottom: 30px;
+      background-color: beige !important;
+      color: rgb(151, 0, 68) !important;
+      font-weight: bolder;
+      font-family: cursive;
+    }
