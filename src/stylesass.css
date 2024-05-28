@@ -32,15 +32,6 @@ button:hover {
   position: relative;
 }
 
-.vertical-line {
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  width: 2px;
-  content: "";
-  z-index: 999;
-}
-
 .group > label {
   padding: 0 0.2em;
   position: absolute;
@@ -70,6 +61,7 @@ button:hover {
   height: 100%;
   overflow: auto;
   background-color: rgb(250, 193, 229);
+  overflow: hidden;
 }
 
 .modal:target {
@@ -83,22 +75,25 @@ button:hover {
   border: 1px solid #888;
   width: 80%;
   position: relative;
-  color: rgba(73, 0, 33, 0.837);
+  color: rgba(255, 158, 202, 0.837);
+  font-size: bolder;
+  overflow: hidden;
 }
 
 .close {
-  color: #5d0020;
+  color: #c04e76;
   position: absolute;
   right: 20px;
   top: 20px;
   font-size: 28px;
   font-weight: bold;
   text-decoration: none;
+  padding: 10px 20px;
 }
 
 .close:hover,
 .close:focus {
-  color: #5d0020;
+  color: #a52955;
   text-decoration: none;
   cursor: pointer;
 }
@@ -109,7 +104,7 @@ button:hover {
   bottom: 200px;
   left: 80px;
   background-color: beige !important;
-  color: rgb(151, 0, 68) !important;
+  color: rgb(255, 176, 211) !important;
   font-weight: bolder;
   font-family: cursive;
 }
@@ -128,9 +123,9 @@ button:hover {
 }
 
 .top-thing {
-  position: fixed;
+  position: absolute;
   background-color: rgb(151, 0, 68);
-  color: rgb(250, 193, 229);
+  color: rgb(141, 42, 105);
   font-family: "Times New Roman", Times, serif;
   font-style: italic;
   font-size: 160px;
@@ -138,4 +133,18 @@ button:hover {
   width: 100px;
   top: 10px;
   left: 10px;
+}
+
+#melodyyy {
+  color: rgb(250, 193, 229);
+  font-size: large;
+  font-weight: bolder;
+}
+
+#hanamaruobake {
+  position: absolute;
+  max-width: 110px;
+  padding: 0px;
+  top: 178px;
+  right: 900px;
 }/*# sourceMappingURL=stylesass.css.map */
